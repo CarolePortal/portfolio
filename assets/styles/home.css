@@ -7,7 +7,7 @@ h1 {
 	margin-bottom: 1.5rem;
 }
 .section-1 {
-	padding: 6rem 0rem;
+	padding: 6rem 0rem 0rem 0;
 }
 
 .flex {
@@ -28,9 +28,57 @@ h1 {
 	gap: 2rem;
 }
 
+.center-btn {
+	justify-content: center;
+}
+
+/* SKILLS */
+
+.skills {
+	margin: 6rem 0 0 0;
+	display: flex;
+	gap: 2rem;
+}
+
+.card-skill {
+	background: #ffffff;
+	box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.15);
+	border-radius: 40px;
+	text-align: center;
+	position: relative;
+	width: 260px;
+}
+
+.picto-skill {
+	width: 100px;
+	margin: 0 auto;
+	position: absolute;
+	top: -45px;
+	left: 0;
+	right: 0;
+}
+
+.picto-skill img {
+	width: 100%;
+}
+
+.info-skill {
+	padding: 2rem;
+}
+
+.info-skill h3 {
+	margin: 3rem 0 1rem 0;
+}
+
+.card-skill:nth-child(1) .info-skill h3,
+.card-skill:nth-child(2) .info-skill h3,
+.card-skill:nth-child(4) .info-skill h3 {
+	margin-bottom: 2.25rem;
+}
+
 @media screen and (max-width: 1148px) {
 	.section-1 {
-		padding: 6rem 1.5rem;
+		padding: 6rem 1.5rem 0rem 1.5rem;
 	}
 
 	.flex {
