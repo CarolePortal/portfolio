@@ -34,6 +34,10 @@ h1 {
 
 /* SKILLS */
 
+.section-2 {
+	padding: 1rem 0rem 0rem 0;
+}
+
 .skills {
 	margin: 6rem 0 0 0;
 	display: flex;
@@ -81,8 +85,31 @@ h1 {
 		padding: 6rem 1.5rem 0rem 1.5rem;
 	}
 
+	.section-2 {
+		padding: 1rem 1.5rem 0rem 1.5rem;
+	}
+
 	.flex {
 		gap: 4rem;
+	}
+
+	.overflow-mobile {
+		padding: 0.5rem 0 0.3rem 0;
+		overflow-y: auto;
+		width: 100%;
+	}
+
+	.overflow-mobile::-webkit-scrollbar {
+		display: none;
+	}
+
+	.skills {
+		padding: 0 1.5rem;
+	}
+
+	.card-skill {
+		min-width: 260px;
+		max-width: 261px;
 	}
 }
 
