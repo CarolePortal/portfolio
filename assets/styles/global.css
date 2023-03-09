@@ -120,7 +120,8 @@ nav {
 	margin-right: 1.1rem;
 }
 
-.navLink ul li a:focus {
+.navLink ul li a:focus,
+.navActive {
 	background: var(--purple-light);
 }
 
