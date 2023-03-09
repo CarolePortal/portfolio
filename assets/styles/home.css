@@ -38,10 +38,16 @@ h1 {
 	padding: 1rem 0rem 0rem 0;
 }
 
-.skills {
-	margin: 6rem 0 0 0;
+.overflow-mobile {
+	padding: 6rem 0.3rem 0.3rem 0.3rem;
+	overflow-y: auto;
 	display: flex;
+	overflow-x: auto;
 	gap: 2rem;
+}
+
+.overflow-mobile::-webkit-scrollbar {
+	display: none;
 }
 
 .card-skill {
@@ -94,17 +100,7 @@ h1 {
 	}
 
 	.overflow-mobile {
-		padding: 0.5rem 0 0.3rem 0;
-		overflow-y: auto;
-		width: 100%;
-	}
-
-	.overflow-mobile::-webkit-scrollbar {
-		display: none;
-	}
-
-	.skills {
-		padding: 0 1.5rem;
+		padding: 6rem 1rem 0.3rem 1rem;
 	}
 
 	.card-skill {
