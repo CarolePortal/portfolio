@@ -1,5 +1,4 @@
 // menu background active
-
 let menus = document.getElementById("Link");
 let navBtns = menus.getElementsByClassName("navBtn");
 for (let i = 0; i < navBtns.length; i++) {
@@ -9,3 +8,11 @@ for (let i = 0; i < navBtns.length; i++) {
 		this.className += " navActive";
 	});
 }
+
+// open menu
+let burgerMenu = document.querySelector(".navLinkMobile");
+let navLink = document.querySelector(".navLink");
+burgerMenu.addEventListener("click", () => {
+	burgerMenu.classList.toggle("open");
+	navLink.classList.toggle("block");
+});
