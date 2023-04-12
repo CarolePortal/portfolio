@@ -85,6 +85,42 @@ h1 {
 .card-skill:nth-child(4) .info-skill h3 {
 	margin-bottom: 2.25rem;
 }
+/* WORK */
+.flex-work {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: flex-start;
+	gap: 2rem;
+}
+.work-link {
+	width: 330px;
+	height: 330px;
+	overflow: hidden;
+	display: flex;
+	border-radius: 40px;
+	background: var(--grey-light);
+	transition: ease-in 0.3s;
+}
+
+.work:nth-child(1) .work-link {
+	background-image: url("/assets/img/work-carizy.jpg");
+}
+.work:nth-child(2) .work-link {
+	background-image: url("/assets/img/work-pret-d-ici.jpg");
+}
+.work:nth-child(3) .work-link {
+	background-image: url("/assets/img/work-ermitage.jpg");
+}
+
+.work-link img {
+	width: 100%;
+}
+
+.work-link:hover {
+	filter: brightness(0.35);
+	transition: ease-in 0.3s;
+}
 
 @media screen and (max-width: 1148px) {
 	.section-1 {
