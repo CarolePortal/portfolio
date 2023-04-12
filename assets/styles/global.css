@@ -70,13 +70,19 @@ button {
 	display: flex;
 }
 
-.separateur {
+.separateur,
+.separateur-white {
 	width: 50px;
 	height: 4px;
 	border-radius: 3px;
 	background: var(--bleu);
 	margin: 1rem 0;
 }
+.separateur-white {
+	background: var(--white);
+	margin: 1rem auto;
+}
+
 p {
 	line-height: 1.6;
 	font-weight: 400;
