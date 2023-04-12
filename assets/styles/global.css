@@ -61,6 +61,11 @@ button {
 	padding: 1rem;
 }
 
+.txt-btn-center {
+	text-align: center;
+	font-size: 0.813rem;
+}
+
 .container {
 	width: 1100px;
 	margin: 0 auto;
@@ -104,6 +109,18 @@ p {
 }
 .m-b-2 {
 	margin-bottom: 2rem;
+}
+.p-t-1 {
+	padding-top: 1rem;
+}
+.p-b-1 {
+	padding-bottom: 1rem;
+}
+.p-t-2 {
+	padding-top: 2rem;
+}
+.p-b-2 {
+	padding-bottom: 2rem;
 }
 
 /* Navigation */

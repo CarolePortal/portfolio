@@ -164,6 +164,13 @@ h1 {
 }
 /* fin - WORK */
 
+/* Qui suis je */
+.photo-profil {
+	margin: 0 auto;
+	width: 280px;
+}
+/* Fin -  Qui suis je */
+
 @media screen and (max-width: 1148px) {
 	.section-1 {
 		padding: 6rem 1.5rem 0rem 1.5rem;
