@@ -16,3 +16,7 @@ burgerMenu.addEventListener("click", () => {
 	burgerMenu.classList.toggle("open");
 	navLink.classList.toggle("block");
 });
+
+// année copyright
+const year = new Date().getFullYear();
+document.getElementById("copy").innerHTML = year;
