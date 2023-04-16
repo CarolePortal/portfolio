@@ -122,6 +122,18 @@ p {
 .p-b-2 {
 	padding-bottom: 2rem;
 }
+.p-t-3 {
+	padding-top: 3rem;
+}
+.p-b-3 {
+	padding-bottom: 3rem;
+}
+.p-t-4 {
+	padding-top: 4rem;
+}
+.p-b-4 {
+	padding-bottom: 4rem;
+}
 
 /* Navigation */
 nav {
