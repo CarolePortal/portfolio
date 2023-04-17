@@ -1,0 +1,40 @@
+.work-title {
+	font-size: 3em;
+	line-height: 1.5;
+}
+
+.section-work {
+	height: inherit;
+}
+
+.section-work-1-txt {
+	width: 100%;
+}
+
+.work-img {
+	height: 300px;
+	background-image: url("/assets/img/pret-d-ici/image-1.png");
+	background-position: center;
+	width: 100%;
+}
+
+.big-img img {
+	width: 100%;
+}
+
+@media screen and (min-width: 1000px) {
+	.section-work {
+		height: 500px;
+	}
+	.section-work-1-txt {
+		width: 50%;
+	}
+	.work-img {
+		display: none;
+	}
+	.section-work {
+		background-image: url("/assets/img/pret-d-ici/image-1.png");
+		background-repeat: no-repeat;
+		background-position: bottom right;
+	}
+}
