@@ -22,6 +22,36 @@
 	width: 100%;
 }
 
+.center-img {
+	display: flex;
+	justify-content: center;
+}
+
+.wireframes {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1rem;
+}
+
+.wireframe-img {
+	width: 200px;
+}
+
+.wireframe-img img {
+	width: 100%;
+}
+
+.section-double-img {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	gap: 7rem;
+}
+
+.section-6-img img {
+	width: 100%;
+}
+
 @media screen and (min-width: 1000px) {
 	.section-work {
 		height: 500px;
@@ -36,5 +66,28 @@
 		background-image: url("/assets/img/pret-d-ici/image-1.png");
 		background-repeat: no-repeat;
 		background-position: bottom right;
+	}
+}
+
+@media screen and (max-width: 1148px) {
+	.wireframes {
+		flex-wrap: nowrap;
+		overflow: hidden;
+		width: auto;
+		overflow-x: scroll;
+		padding: 1rem;
+	}
+
+	.wireframes::-webkit-scrollbar {
+		display: none;
+	}
+	.wireframe-img img {
+		width: 200px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.center-img img {
+		width: 80%;
 	}
 }
