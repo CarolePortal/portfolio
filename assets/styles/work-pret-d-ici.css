@@ -66,6 +66,37 @@
 	display: none;
 }
 
+.block-ui {
+}
+.block-ui-title {
+	display: flex;
+	align-items: center;
+}
+.ui-number {
+	background: var(--bleu);
+	width: 45px;
+	height: 45px;
+	color: var(--white);
+	border-radius: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-right: 1rem;
+}
+
+.ui-number p {
+	font-family: "Inter", sans-serif;
+	font-size: 1.5rem;
+	font-weight: 700;
+}
+
+.ui-title {
+	font-size: 1.75rem;
+	font-weight: 600;
+}
+.block-ui-text {
+}
+
 /* MEDIA QUERIES */
 @media screen and (min-width: 1000px) {
 	.section-work {
