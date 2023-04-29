@@ -1,0 +1,42 @@
+.section-work-ermitage {
+	height: inherit;
+}
+
+.work-img-ermitage {
+	height: 300px;
+	background-image: url("/assets/img/ermitage/image-1.png");
+	background-position: center bottom;
+	width: 100%;
+}
+
+.big-img-ermitage,
+.hypothese-img-ermitage {
+	max-width: 500px;
+	margin: 0 auto;
+}
+
+.hypothese-img-ermitage {
+	max-width: 1000px;
+}
+
+.big-img-ermitage img,
+.hypothese-img-ermitage img {
+	width: 100%;
+}
+
+/* MEDIA QUERIES */
+@media screen and (min-width: 1000px) {
+	.section-work-ermitage {
+		height: 500px;
+	}
+
+	.work-img-ermitage {
+		display: none;
+	}
+	.section-work-ermitage {
+		background-image: url("/assets/img/ermitage/image-1.png");
+		background-repeat: no-repeat;
+		background-position: bottom right;
+		background-size: cover;
+	}
+}
