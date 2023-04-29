@@ -20,8 +20,20 @@
 }
 
 .big-img-ermitage img,
-.hypothese-img-ermitage img {
+.hypothese-img-ermitage img,
+.wireframe-ermitage-img img {
 	width: 100%;
+}
+
+.wireframe-ermitage-img {
+	max-width: 500px;
+}
+
+.section-double-img-ermitage {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 4rem;
 }
 
 /* MEDIA QUERIES */
@@ -38,5 +50,11 @@
 		background-repeat: no-repeat;
 		background-position: bottom right;
 		background-size: cover;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.section-double-img-ermitage {
+		flex-direction: column;
 	}
 }
