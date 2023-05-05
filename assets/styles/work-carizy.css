@@ -1,0 +1,14 @@
+.work-competences .flex {
+	gap: 4rem;
+}
+
+@media screen and (max-width: 768px) {
+	.work-competences {
+		text-align: center;
+	}
+
+	.work-competences .flex {
+		display: flex;
+		justify-content: center;
+	}
+}
