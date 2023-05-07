@@ -31,6 +31,12 @@
 	width: 100%;
 }
 
+.img-txt {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
 @media screen and (max-width: 768px) {
 	.work-competences {
 		text-align: center;
