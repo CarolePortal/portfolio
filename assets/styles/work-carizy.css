@@ -8,7 +8,6 @@
 
 .work-ul li {
 	display: flex;
-	align-items: center;
 	margin-bottom: 1rem;
 }
 
@@ -16,9 +15,20 @@
 	content: "";
 	display: inline-block;
 	height: 22px;
-	width: 30px;
+	min-width: 30px;
+	max-width: 31px;
 	background-image: url("/assets/img/carizy/check-icon.svg");
 	background-repeat: no-repeat;
+	margin-top: 2px;
+}
+
+.flex-2-img {
+	display: flex;
+	gap: 2rem;
+}
+
+.flex-2-img img {
+	width: 100%;
 }
 
 @media screen and (max-width: 768px) {
@@ -28,6 +38,10 @@
 
 	.work-competences .flex {
 		display: flex;
+		justify-content: center;
+	}
+	.flex-2-img {
+		flex-direction: column;
 		justify-content: center;
 	}
 }
