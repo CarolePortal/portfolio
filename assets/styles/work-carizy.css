@@ -37,6 +37,13 @@
 	justify-content: space-between;
 }
 
+.visible-desktop {
+	display: flex;
+}
+.visible-mobile {
+	display: none;
+}
+
 @media screen and (max-width: 768px) {
 	.work-competences {
 		text-align: center;
@@ -49,5 +56,11 @@
 	.flex-2-img {
 		flex-direction: column;
 		justify-content: center;
+	}
+	.visible-desktop {
+		display: none;
+	}
+	.visible-mobile {
+		display: flex;
 	}
 }
